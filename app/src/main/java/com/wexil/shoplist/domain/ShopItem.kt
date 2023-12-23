@@ -1,8 +1,14 @@
 package com.wexil.shoplist.domain
 
 data class ShopItem(
-    var id: Int,
-    var name: String,
-    var count: Int,
-    val enabled: Boolean
-)
+    val name: String,
+    val count: Int,
+    val enabled: Boolean,
+    var id: Int = UNDEFINED_ID
+) {
+
+    companion object {
+
+        const val UNDEFINED_ID = -1
+    }
+}
