@@ -2,4 +2,8 @@
     <string name="app_name">ShopList</string>
 
     <string name="button_add_description">Add new shop item</string>
+
+    <string name="error_input_count">Неверное значение</string>
+    <string name="error_input_name">Введите название</string>
+
 </resources>
